@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 DATABASE_URL = os.getenv( 'DATABASE_URL',
-    'mysql+mysqlconnector://<db-user>:<db-password>@<your-RDS-endpoint>:3306/<db-name>')
+    'mysql+mysqlconnector://admin:myCloudTec10@cloudevtec.cutenzlzct6y.us-east-1.rds.amazonaws.com:3306/cloudtecrecords')
 
 engine = create_engine(DATABASE_URL)
 
