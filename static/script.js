@@ -15,7 +15,7 @@ document.getElementById('todo-form').onsubmit = async (e) => {
   const list = document.getElementById('todo-list');
 
   // Send a POST request to the FastAPI backend
-  const response = await fetch('http://<your-ec2-public-ip-or-dns-name>:5000/todos', {
+  const response = await fetch('http://44.204.45.74:5000/todos', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
