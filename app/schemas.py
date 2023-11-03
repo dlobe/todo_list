@@ -19,8 +19,4 @@ class Todo(TodoBase):
     id: int
 
     class Config:
-<<<<<<< HEAD
-       from_attributes = True
-=======
         orm_mode = True
->>>>>>> 5ea0e348fc29a4f161900e42e3c2aa6c81fa7f7b
